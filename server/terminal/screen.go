@@ -198,3 +198,4 @@ func (s *screen) backspace() {
 		s.x--
 	}
 }
+
