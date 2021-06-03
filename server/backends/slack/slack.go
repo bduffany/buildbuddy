@@ -116,3 +116,4 @@ func (w *SlackWebhook) NotifyComplete(ctx context.Context, invocation *inpb.Invo
 	_, err := http.Post(w.callbackURL, "application/json; charset=utf-8", buf)
 	return err
 }
+
