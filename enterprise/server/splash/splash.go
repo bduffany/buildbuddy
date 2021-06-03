@@ -29,3 +29,4 @@ func (p *Printer) PrintSplashScreen(port, gRPCPort int) {
 	log.Printf("╚════════════════════════════════════════════════════════════════════╝")
 	log.Printf("")
 }
+
