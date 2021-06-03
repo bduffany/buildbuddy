@@ -11,3 +11,4 @@ type node struct {
 func (n *node) hasSameStyle(o node) bool {
 	return n.style.isEqual(o.style)
 }
+
