@@ -30,3 +30,4 @@ func SetInContext(ctx context.Context) (context.Context, error) {
 	}
 	return context.WithValue(ctx, uuidContextKey, u.String()), nil
 }
+
