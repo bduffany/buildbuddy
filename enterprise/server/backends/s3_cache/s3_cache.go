@@ -449,3 +449,4 @@ func (s3c *S3Cache) Start() error {
 func (s3c *S3Cache) Stop() error {
 	return nil
 }
+
