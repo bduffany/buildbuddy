@@ -441,3 +441,4 @@ func StartAndRunServices(env environment.Env) {
 	}
 	env.GetHealthChecker().WaitForGracefulShutdown()
 }
+
