@@ -125,3 +125,4 @@ func recordFromLogProto(logProto *telpb.TelemetryLog) *tables.TelemetryLog {
 
 	return telemetryLog
 }
+
