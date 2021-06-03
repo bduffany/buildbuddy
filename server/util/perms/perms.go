@@ -241,3 +241,4 @@ func AuthorizeGroupAccess(ctx context.Context, env environment.Env, groupID stri
 	}
 	return status.PermissionDeniedError("You do not have access to the requested group")
 }
+
