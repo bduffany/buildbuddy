@@ -85,3 +85,4 @@ func (j *Janitor) Stop() {
 	close(j.quit)
 	j.ticker.Stop()
 }
+
