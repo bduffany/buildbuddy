@@ -50,3 +50,4 @@ func NewClient(redisTarget string, checker interfaces.HealthChecker, healthCheck
 	checker.AddHealthCheck(healthCheckName, &HealthChecker{rdb})
 	return rdb
 }
+
