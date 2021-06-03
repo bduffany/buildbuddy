@@ -303,3 +303,4 @@ func NewRegistration(env environment.Env, queueExecutorServer scpb.QueueExecutor
 	env.GetHealthChecker().AddHealthCheck("registered_to_scheduler", registration)
 	return registration, nil
 }
+
