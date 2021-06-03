@@ -308,3 +308,4 @@ func (s *ByteStreamServer) QueryWriteStatus(ctx context.Context, req *bspb.Query
 		Complete:      false,
 	}, nil
 }
+
