@@ -85,3 +85,4 @@ func parse(repoURL string) (*url.URL, error) {
 	}
 	return giturls.Parse(repoURL)
 }
+
