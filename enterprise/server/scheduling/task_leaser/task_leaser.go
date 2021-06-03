@@ -176,3 +176,4 @@ func (t *TaskLeaser) Close(taskErr error) error {
 	t.closed = true
 	return taskErr
 }
+
