@@ -46,3 +46,4 @@ func (a *NullAuthenticator) ParseAPIKeyFromString(input string) string {
 func (a *NullAuthenticator) AuthContextFromAPIKey(ctx context.Context, apiKey string) context.Context {
 	return ctx
 }
+
