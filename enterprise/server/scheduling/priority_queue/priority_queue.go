@@ -86,3 +86,4 @@ func (pq *PriorityQueue) Len() int {
 	defer pq.mu.Unlock()
 	return len(*pq.inner)
 }
+
