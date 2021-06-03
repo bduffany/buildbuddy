@@ -398,3 +398,4 @@ func fillInvocationFromWorkflowConfigured(workflowConfigured *build_event_stream
 	invocation.Command = "workflow run"
 	invocation.Pattern = []string{workflowConfigured.ActionName}
 }
+
