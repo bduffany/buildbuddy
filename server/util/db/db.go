@@ -395,3 +395,4 @@ func (h *DBHandle) DateFromUsecTimestamp(fieldName string) string {
 	}
 	return "DATE(FROM_UNIXTIME(" + fieldName + "/1000000))"
 }
+
