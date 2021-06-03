@@ -268,3 +268,4 @@ func BenchmarkContainsMulti(b *testing.B) {
 		}
 	}
 }
+
