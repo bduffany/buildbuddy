@@ -387,3 +387,4 @@ type HealthChecker interface {
 	// signal.
 	Shutdown()
 }
+
