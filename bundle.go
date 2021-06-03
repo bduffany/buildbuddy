@@ -70,3 +70,4 @@ func Get() (fs.FS, error) {
 	}
 	return afs, nil
 }
+
