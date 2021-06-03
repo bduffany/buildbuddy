@@ -97,3 +97,4 @@ func (d *AuthDB) GetAPIKeyGroupFromBasicAuth(ctx context.Context, login, pass st
 	return akg, nil
 
 }
+
