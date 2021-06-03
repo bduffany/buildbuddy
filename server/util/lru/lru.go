@@ -214,3 +214,4 @@ func (c *LRU) removeElement(e *list.Element) {
 		c.onEvict(kv.key, kv.value)
 	}
 }
+
