@@ -157,3 +157,4 @@ func TestGetBackfillTargets(t *testing.T) {
 		assert.Equal(t, test.expectedBackfillHosts, backfillHosts)
 	}
 }
+
