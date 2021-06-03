@@ -45,3 +45,4 @@ func NewConfig(r io.Reader) (*BuildBuddyConfig, error) {
 	}
 	return cfg, nil
 }
+
