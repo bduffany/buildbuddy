@@ -337,3 +337,4 @@ func (c *Cache) IncrementCount(ctx context.Context, counterName string, n int64)
 func (c *Cache) ReadCount(ctx context.Context, counterName string) (int64, error) {
 	return c.rdb.IncrBy(ctx, counterName, 0).Result()
 }
+
