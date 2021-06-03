@@ -72,3 +72,4 @@ func TestExtractDigest(t *testing.T) {
 		}
 	}
 }
+
