@@ -65,3 +65,4 @@ func IsGranted(ctx context.Context, env environment.Env, cap akpb.ApiKey_Capabil
 	}
 	return user.HasCapability(cap), nil
 }
+
