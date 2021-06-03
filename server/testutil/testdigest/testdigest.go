@@ -76,3 +76,4 @@ func ReadDigestAndClose(t *testing.T, r io.ReadCloser) *repb.Digest {
 	}
 	return d
 }
+
