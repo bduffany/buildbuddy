@@ -454,3 +454,4 @@ func (c *CacheProxy) SendHeartbeat(ctx context.Context, peer string) error {
 	_, err = client.Heartbeat(ctx, req)
 	return err
 }
+
