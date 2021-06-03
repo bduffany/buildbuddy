@@ -29,3 +29,4 @@ func (t *TestingHealthChecker) ReadinessHandler() http.Handler {
 		w.Write([]byte("OK"))
 	})
 }
+
