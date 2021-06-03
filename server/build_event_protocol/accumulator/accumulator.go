@@ -200,3 +200,4 @@ func patternFromEvent(event *build_event_stream.BuildEvent) string {
 	}
 	return ""
 }
+
