@@ -599,3 +599,4 @@ func (c *Configurator) GetOrgConfig() *OrgConfig {
 	}
 	return nil
 }
+
