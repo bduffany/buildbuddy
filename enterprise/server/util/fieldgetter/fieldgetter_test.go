@@ -50,3 +50,4 @@ func TestExtractValues(t *testing.T) {
 		assert.Equal(t, test.errMsg, fmt.Sprintf("%s", err))
 	}
 }
+
