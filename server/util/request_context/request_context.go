@@ -21,3 +21,4 @@ func ProtoRequestContextFromContext(ctx context.Context) *ctxpb.RequestContext {
 	}
 	return val.(*ctxpb.RequestContext)
 }
+
