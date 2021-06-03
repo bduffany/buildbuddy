@@ -19,3 +19,4 @@ func FastCopy(source, destination string) error {
 	}
 	return nil
 }
+
