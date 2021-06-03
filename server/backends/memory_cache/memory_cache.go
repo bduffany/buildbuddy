@@ -202,3 +202,4 @@ func (m *MemoryCache) Start() error {
 func (m *MemoryCache) Stop() error {
 	return nil
 }
+
