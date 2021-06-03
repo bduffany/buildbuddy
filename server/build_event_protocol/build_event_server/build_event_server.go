@@ -138,3 +138,4 @@ func (s *BuildEventProtocolServer) PublishBuildToolEventStream(stream pepb.Publi
 	}
 	return nil
 }
+
