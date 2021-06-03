@@ -293,3 +293,4 @@ func loadX509KeyPair(certFile, keyFile string) (*x509.Certificate, *rsa.PrivateK
 
 	return crt, key.(*rsa.PrivateKey), nil
 }
+
