@@ -72,3 +72,4 @@ func TestOwnerRepoFromRepoURL(t *testing.T) {
 		assert.Equal(t, "org/repo", ownerRepo)
 	}
 }
+
