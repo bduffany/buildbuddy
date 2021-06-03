@@ -173,3 +173,4 @@ func TestLockingBuffer_ReadAll(t *testing.T) {
 func randDelay() {
 	time.Sleep(time.Microsecond * time.Duration(rand.Float64()*5))
 }
+
