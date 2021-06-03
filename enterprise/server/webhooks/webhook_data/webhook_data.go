@@ -60,3 +60,4 @@ type WebhookData struct {
 func (wd *WebhookData) IsTrusted() bool {
 	return wd.IsRepoPrivate
 }
+
