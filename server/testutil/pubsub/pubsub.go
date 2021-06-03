@@ -59,3 +59,4 @@ func (ps *TestPubSub) Subscribe(ctx context.Context, channelName string) interfa
 		ch: ch,
 	}
 }
+
