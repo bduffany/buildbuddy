@@ -61,3 +61,4 @@ func TestParseRequest_InvalidEvent_Error(t *testing.T) {
 	assert.Error(t, err)
 	assert.Nil(t, data)
 }
+
