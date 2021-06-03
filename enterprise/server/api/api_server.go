@@ -334,3 +334,4 @@ func actionMatchesActionSelector(id *apipb.Action_Id, selector *apipb.ActionSele
 		(selector.ConfigurationId == "" || selector.ConfigurationId == id.ConfigurationId) ||
 		(selector.ActionId == "" || selector.ActionId == id.ActionId)
 }
+
