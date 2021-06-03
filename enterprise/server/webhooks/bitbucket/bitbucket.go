@@ -149,3 +149,4 @@ type RepositoryLink struct {
 type CommitDetails struct {
 	Hash string `json:"hash"`
 }
+
