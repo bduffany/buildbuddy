@@ -53,3 +53,4 @@ func TestParseRequest_ValidPullRequestEvent_Success(t *testing.T) {
 		SHA:           "a4822151d5d2",
 	}, data)
 }
+
