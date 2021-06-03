@@ -575,3 +575,4 @@ func init() {
 	registerTable("TS", &TargetStatus{})
 	registerTable("WF", &Workflow{})
 }
+
