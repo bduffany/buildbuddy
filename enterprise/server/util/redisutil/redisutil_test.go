@@ -270,3 +270,4 @@ func TestTargetToOptionsWithConnectionURI(t *testing.T) {
 	test_map(bad_targets_with_options)
 
 }
+
