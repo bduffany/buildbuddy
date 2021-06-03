@@ -113,3 +113,4 @@ func AssertExactFileContents(t testing.TB, rootDir string, contents map[string]s
 		"some files were missing or unexpected files were found",
 	)
 }
+
