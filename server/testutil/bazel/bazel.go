@@ -106,3 +106,4 @@ func MakeTempWorkspace(t *testing.T, contents map[string]string) string {
 	}
 	return workspaceDir
 }
+
