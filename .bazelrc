@@ -59,7 +59,9 @@ build:workflows --build_metadata=VISIBILITY=PUBLIC
 build:workflows --remote_instance_name=buildbuddy-io/buildbuddy/workflows
 build:workflows --color=yes
 build:workflows --disk_cache=
-build:workflows --remote_header=x-buildbuddy-api-key=XrB5MdZmngWlIYu0j2Pa
+
+build:workflows --bes_backend=grpc://localhost:1985
+build:workflows --bes_results_url=http://localhost:8080/invocation/
 
 # By default, build logs get sent to the production server
 build --bes_results_url=https://app.buildbuddy.io/invocation/
