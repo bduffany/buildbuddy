@@ -62,6 +62,7 @@ build:workflows --disk_cache=
 
 build:workflows --bes_backend=grpc://localhost:1985
 build:workflows --bes_results_url=http://localhost:8080/invocation/
+build:workflows --nocache_test_results
 
 # By default, build logs get sent to the production server
 build --bes_results_url=https://app.buildbuddy.io/invocation/
