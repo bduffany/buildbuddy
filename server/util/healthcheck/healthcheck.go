@@ -202,3 +202,4 @@ func serverType(r *http.Request) string {
 	// GCP load balancer healthchecks do not allow sending headers.
 	return r.URL.Query().Get("server-type")
 }
+
