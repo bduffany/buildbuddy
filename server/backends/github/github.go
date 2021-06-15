@@ -259,3 +259,4 @@ func getCookie(r *http.Request, name string) string {
 	}
 	return ""
 }
+
