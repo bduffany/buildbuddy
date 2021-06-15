@@ -9,5 +9,4 @@ actions:
           - "master"
     bazel_commands:
       - test //... --config=workflows
-      - version
 
