@@ -243,3 +243,4 @@ func TestFillInvocation(t *testing.T) {
 	assert.Equal(t, "METADATA_CI", invocation.Role)
 	assert.Equal(t, "https://github.com/buildbuddy-io/metadata_repo_url", invocation.RepoUrl)
 }
+
