@@ -65,7 +65,7 @@ build:workflows --bes_backend=grpc://localhost:1985
 build:workflows --remote_cache=grpc://localhost:1985
 build:workflows --remote_executor=grpc://localhost:1985
 build:workflows --remote_header=x-buildbuddy-api-key=XrB5MdZmngWlIYu0j2Pa
-build:workflows --nocache_test_results
+# build:workflows --nocache_test_results
 
 # By default, build logs get sent to the production server
 build --bes_results_url=https://app.buildbuddy.io/invocation/
