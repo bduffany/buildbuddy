@@ -143,3 +143,4 @@ func (h *Histogram) String() string {
 
 	return sb.String()
 }
+
