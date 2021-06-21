@@ -166,3 +166,4 @@ func (p *FetchServer) FetchBlob(ctx context.Context, req *rapb.FetchBlobRequest)
 func (p *FetchServer) FetchDirectory(ctx context.Context, req *rapb.FetchDirectoryRequest) (*rapb.FetchDirectoryResponse, error) {
 	return nil, status.UnimplementedError("FetchDirectory is not yet implemented")
 }
+
