@@ -305,3 +305,4 @@ func Fatalf(format string, args ...interface{}) {
 	// Make sure fatal logs will exit.
 	os.Exit(1)
 }
+
