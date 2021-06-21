@@ -68,3 +68,4 @@ func CommonGRPCClientOptions() []grpc.DialOption {
 		grpc.WithDefaultCallOptions(grpc.MaxCallRecvMsgSize(math.MaxInt32)),
 	}
 }
+
