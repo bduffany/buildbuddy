@@ -842,3 +842,4 @@ func UserFromTrustedJWT(ctx context.Context) (interfaces.UserInfo, error) {
 	}
 	return nil, status.PermissionDeniedError("User not found")
 }
+
