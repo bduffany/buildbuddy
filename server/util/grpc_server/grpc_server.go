@@ -55,3 +55,4 @@ func CommonGRPCServerOptions(env environment.Env) []grpc.ServerOption {
 		grpc.MaxRecvMsgSize(env.GetConfigurator().GetGRPCMaxRecvMsgSizeBytes()),
 	}
 }
+
