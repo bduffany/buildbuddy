@@ -44,3 +44,4 @@ func (lb *LockingBuffer) ReadAll() ([]byte, error) {
 	lb.buffer.Reset()
 	return b, err
 }
+
