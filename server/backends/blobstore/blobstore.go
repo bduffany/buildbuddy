@@ -27,7 +27,7 @@ func Register(env *real_environment.RealEnv) error {
 func NewFromConfig(ctx context.Context) (interfaces.Blobstore, error) {
 	bs, err := getBlobstore(ctx)
 	if err != nil {
-		return bs, err
+		return nil, err
 	}
 	return util.NewDefaultPrefixBlobstore(bs), nil
 }
